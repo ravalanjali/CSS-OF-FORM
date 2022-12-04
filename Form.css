@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainConatainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border: 2px solid black;
+  height: 300px;
+  width: 50%;
+  background: linear-gradient(45deg, hsla(166, 88%, 60%, 0.502));
+}
+.mainForm {
+  /* border: 2px solid  */
+  border: 2px;
+  align: center;
+}
+input {
+  border-style: none;
+  background-color: #eed67c;
+  border-radius: 5px;
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+th {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
