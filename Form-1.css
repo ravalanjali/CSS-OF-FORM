@@ -1,36 +1,37 @@
 * {
-  margin: 0;
-  padding: 0;
-}
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(30deg, rgb(57, 211, 103) 60%, rgb(96, 224, 10));
-  height: 100vh;
-  width: 100vw;
-}
-
-.mainConatainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid black;
-  height: 300px;
-  width: 50%;
-  background: linear-gradient(30deg, rgb(57, 211, 160) 60%, rgb(10, 224, 224));
-}
-.mainForm {
-  border: 2px solid rgb(0, 0, 0);
-  border-radius: 10px;
-}
-input {
-  border: 1.5px solid black;
-  background-color: rgb(57, 211, 160);
-  /* border-radius: 5px; */
-  border-left: 1px solid rgba(0, 0, 0, 0.3);
-}
-
-th {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-}
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(30deg, pink 60%, rgb(10, 224, 224));
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .mainConatainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    height: 300px;
+    width: 50%;
+    background: linear-gradient(30deg, pink 60%, rgb(10, 224, 224));
+  }
+  .mainForm {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+  }
+  input {
+    border: 1.5px solid black;
+    background-color: pink;
+    /* border-radius: 5px; */
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  
+  th {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  
